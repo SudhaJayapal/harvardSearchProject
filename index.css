@@ -1,0 +1,179 @@
+
+
+
+.vertical-center1
+{
+  background-color: blue; 
+  border: none;
+  color: white;
+  padding: 5px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  align-tracks: center;
+  
+  height: 40px;
+  width: 20%;
+
+
+  font-size: 20px;
+  font-size-adjust: none;
+}
+
+
+/* BASIC STYLES */
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Roboto', sans-serif;
+    }
+    
+    header {
+      width: 100%;
+    }
+    
+    ul {
+      list-style: none;
+    }
+    
+    /* NAV BAR */
+    
+    #nav_bar {
+      float: right;
+    }
+    
+    #nav_bar li {
+      display: inline-block;
+      padding: 8px;
+    }
+    
+    
+    .nav-links {
+      color: #5a2991;
+    }
+    
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+    
+    li.nav-links a:hover {
+      text-decoration: underline;
+    }
+    
+    #sign_in:hover { 
+      box-shadow: 1px 1px 5px #999;
+    }
+    
+        
+    /* GOOGLE AREA */
+    .google{
+      text-align: center;
+      display: block;
+      margin: 0 auto;
+      clear: both;
+      padding-top: 112px;
+      padding-bottom: 20px;
+    }
+    
+    .form {
+      text-align: center;
+    }
+    
+    #form-search { 
+      width: 450px;
+      line-height: 32px;
+      padding: 20px 10px;
+    }
+    
+    .form #form-search {
+      padding: 0 8px;
+      
+    }
+    
+    
+    .buttons {
+      text-align: center;
+      padding-top: 30px;
+      margin-bottom: 300px;
+    }/* MEDIA QUERIES */
+    
+    @media screen and (max-width: 400px) {
+     
+     li.nav-links a {
+        display: none;
+      }
+      
+     #google_logo {
+       padding: 0;
+     }
+      
+      
+     form-search {
+       width: 80%;
+    
+     }
+      
+     
+      
+    }
+    
+    @media screen and (max-width: 565px) {
+     
+      li.nav-links a {
+        display: none;
+      }
+      
+      
+     .google_logo {
+       padding: 0;
+     }
+      
+     .buttons {
+       display: none;
+     }
+      
+     .form-search {
+       width: 80%;
+    
+     }
+      
+    
+    }
+   
+     input[type=text]{
+width: 50%;
+border:2px solid #aaa;
+margin:8px 0;
+outline: none;
+padding: 8px;
+box-sizing: border-box;
+transition:.3s;
+}
+button{
+width: 10%;
+border-radius: 25px 0 0 25px; 
+border-radius: 25px 25px;
+background: #fff;
+    }
+    button:focus{
+      border-color: dodgerblue;
+        box-shadow:0 0 8px dodgerblue;
+    }
+   
+
+
+
+    /*adv searvh*/
+                #gg{
+                    margin: 50px;
+                    
+
+
+                }
+                #pic{
+                    float: right;
+                }
+    
